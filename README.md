@@ -12,8 +12,8 @@ git clone <url repository> <folder tujuan>
 #### Contoh
 
 ```
-user@host:~$ git clone https://github.com/datascienceid/instagram.git instagram
-Cloning into 'instagram'...
+user@host:~$ git clone https://github.com/rifai-rizqi3/Guide-Github.git guide
+Cloning into 'guide'...
 remote: Counting objects: 4, done.
 remote: Compressing objects: 100% (4/4), done.
 remote: Total 4 (delta 0), reused 4 (delta 0), pack-reused 0
@@ -32,8 +32,8 @@ git pull origin <nama branch>
 #### Contoh
 
 ```
-git pull https://github.com/datascienceid/instagram.git master
-From https://github.com/datascienceid/instagram
+git pull https://github.com/rifai-rizqi3/Guide-Github.git master
+From https://github.com/rifai-rizqi3/Guide-Github.git/guide
  * branch            master     -> FETCH_HEAD
 Already up-to-date.
 ```
@@ -196,7 +196,7 @@ user@host~$ git push origin development
 Total 0 (delta 0), reused 0 (delta 0)
 remote:
 remote: Create pull request for new:
-remote:   https://github.com/datascienceid/instagram/pull-requests/new?source=new&t=1
+remote:   https://github.com/rifai-rizqi3/Guide-Github/guide/pull-requests/new?source=new&t=1
 remote:
 To https://github.com/datascienceid/instagram.git
  * [new branch]      development -> development
